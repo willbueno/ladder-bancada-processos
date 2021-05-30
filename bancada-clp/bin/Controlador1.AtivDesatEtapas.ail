@@ -1,0 +1,232 @@
+(* line 0001 *)
+ld opened_contact True_1scan
+or opened_contact T300
+out_end set_coil E0
+END_LINE
+
+(* line 0002 *)
+ld opened_contact T01
+out_or_end set_coil E1
+out_end reset_coil E0
+
+END_LINE
+
+(* line 0003 *)
+ld opened_contact T12
+out_or_end set_coil E2
+out_end reset_coil E1
+
+END_LINE
+
+(* line 0004 *)
+ld opened_contact T23
+out_or_end set_coil E3
+out_end reset_coil E2
+
+END_LINE
+
+(* line 0005 *)
+ld opened_contact T34
+out_or_end set_coil E4
+out_end reset_coil E3
+
+END_LINE
+
+(* line 0006 *)
+ld opened_contact T45
+out_or_end set_coil E5
+out_end reset_coil E4
+
+END_LINE
+
+(* line 0007 *)
+ld opened_contact T56
+out_or_end set_coil E6
+out_end reset_coil E5
+
+END_LINE
+
+(* line 0008 *)
+ld opened_contact T67
+out_or_end set_coil E7
+out_end reset_coil E6
+
+END_LINE
+
+(* line 0009 *)
+ld opened_contact T78
+out_or_end set_coil E8
+out_end reset_coil E7
+
+END_LINE
+
+(* line 0010 *)
+ld opened_contact T89
+out_or_end set_coil E9
+out_end reset_coil E8
+
+END_LINE
+
+(* line 0011 *)
+ld opened_contact T910
+out_or_end set_coil E10
+out_end reset_coil E9
+
+END_LINE
+
+(* line 0012 *)
+ld opened_contact T1011
+out_or_end set_coil E11
+out_end reset_coil E10
+
+END_LINE
+
+(* line 0013 *)
+ld opened_contact T1112
+out_or_end set_coil E12
+out_end reset_coil E11
+
+END_LINE
+
+(* line 0014 *)
+ld opened_contact T1213
+out_or_end set_coil E13
+out_end reset_coil E12
+
+END_LINE
+
+(* line 0015 *)
+ld opened_contact T1314
+out_or_end set_coil E14
+out_end reset_coil E13
+
+END_LINE
+
+(* line 0016 *)
+ld opened_contact T1415
+out_or_end set_coil E15
+out_end reset_coil E14
+
+END_LINE
+
+(* line 0017 *)
+ld opened_contact T1516
+out_or_end set_coil E16
+out_end reset_coil E15
+
+END_LINE
+
+(* line 0018 *)
+ld opened_contact T1617
+out_or_end set_coil E17
+out_end reset_coil E16
+
+END_LINE
+
+(* line 0019 *)
+ld opened_contact T1718
+out_or_end set_coil E18
+out_end reset_coil E17
+
+END_LINE
+
+(* line 0020 *)
+ld opened_contact T1819
+out_or_end set_coil E19
+out_end reset_coil E18
+
+END_LINE
+
+(* line 0021 *)
+ld opened_contact T1920
+out_or_end set_coil E20
+out_end reset_coil E19
+
+END_LINE
+
+(* line 0022 *)
+ld opened_contact T2021
+out_or_end set_coil E21
+out_end reset_coil E20
+
+END_LINE
+
+(* line 0023 *)
+ld opened_contact T2122
+out_or_end set_coil E22
+out_end reset_coil E21
+
+END_LINE
+
+(* line 0024 *)
+ld opened_contact T2223
+out_or_end set_coil E23
+out_end reset_coil E22
+
+END_LINE
+
+(* line 0025 *)
+ld opened_contact T2324
+out_end set_coil E24
+END_LINE
+
+(* line 0026 *)
+ld opened_contact T2324
+or opened_contact T2327
+out_end reset_coil E23
+END_LINE
+
+(* line 0027 *)
+ld opened_contact T2327
+out_end set_coil E27
+END_LINE
+
+(* line 0028 *)
+ld opened_contact T2425
+out_or_end set_coil E25
+out_end reset_coil E24
+
+END_LINE
+
+(* line 0029 *)
+ld opened_contact T2526
+out_or_end set_coil E26
+out_end reset_coil E25
+
+END_LINE
+
+(* line 0030 *)
+ld opened_contact T2630
+or opened_contact T2930
+out_end set_coil E30
+END_LINE
+
+(* line 0031 *)
+ld opened_contact T2930
+out_end reset_coil E29
+END_LINE
+
+(* line 0032 *)
+ld opened_contact T2630
+out_end reset_coil E26
+END_LINE
+
+(* line 0033 *)
+ld opened_contact T2728
+out_or_end set_coil E28
+out_end reset_coil E27
+
+END_LINE
+
+(* line 0034 *)
+ld opened_contact T2829
+out_or_end set_coil E29
+out_end reset_coil E28
+
+END_LINE
+
+(* line 0035 *)
+ld opened_contact T300
+out_end reset_coil E30
+END_LINE
+

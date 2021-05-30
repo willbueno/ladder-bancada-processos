@@ -1,0 +1,200 @@
+(* line 0001 *)
+ld opened_contact E0
+and opened_contact B_liga
+out_end coil T01
+END_LINE
+
+(* line 0002 *)
+ld opened_contact E1
+and opened_contact S_capacitivo
+out_end coil T12
+END_LINE
+
+(* line 0003 *)
+ld opened_contact E2
+and opened_contact S_otico
+and opened_contact S_a_un_transf
+out_end coil T23
+END_LINE
+
+(* line 0004 *)
+ld opened_contact E3
+and opened_contact S_r_un_transf
+out_end coil T34
+END_LINE
+
+(* line 0005 *)
+ld opened_contact E4
+and opened_contact s_a_man_car_vert
+out_end coil T45
+END_LINE
+
+(* line 0006 *)
+ld opened_contact E5
+and opened_contact G_fechada
+out_end coil T56
+END_LINE
+
+(* line 0007 *)
+ld opened_contact E6
+and opened_contact S_r_man_car_vert
+out_end coil T67
+END_LINE
+
+(* line 0008 *)
+ld opened_contact E7
+and opened_contact S_a_man_car_hor
+out_end coil T78
+END_LINE
+
+(* line 0009 *)
+ld opened_contact E8
+and opened_contact S_a_man_car_vert
+out_end coil T89
+END_LINE
+
+(* line 0010 *)
+ld opened_contact E9
+and closed_contact G_fechada
+out_end coil T910
+END_LINE
+
+(* line 0011 *)
+ld opened_contact E10
+and opened_contact S_r_man_car_vert
+and opened_contact S_r_man_car_hor
+out_end coil T1011
+END_LINE
+
+(* line 0012 *)
+ld opened_contact E11
+and opened_contact aux_temp1
+and opened_contact S_indutivo
+out_end coil T1112
+END_LINE
+
+(* line 0013 *)
+ld opened_contact E12
+and opened_contact s_a_p_furadeira
+out_end coil T1213
+END_LINE
+
+(* line 0014 *)
+ld opened_contact E13
+and opened_contact s_r_p_furadeira
+out_end coil T1314
+END_LINE
+
+(* line 0015 *)
+ld opened_contact E14
+and opened_contact cont_s_indutivo
+out_end coil T1415
+END_LINE
+
+(* line 0016 *)
+ld opened_contact E15
+and opened_contact s_R_brac_v_desc
+out_end coil T1516
+END_LINE
+
+(* line 0017 *)
+ld opened_contact E16
+and opened_contact aux_temp4
+out_end coil T1617
+END_LINE
+
+(* line 0018 *)
+ld opened_contact E17
+and opened_contact s_A_brac_v_desc
+out_end coil T1718
+END_LINE
+
+(* line 0019 *)
+ld opened_contact E18
+and opened_contact s_a_b_desc_hor
+out_end coil T1819
+END_LINE
+
+(* line 0020 *)
+ld opened_contact E19
+and opened_contact s_R_brac_v_desc
+out_end coil T1920
+END_LINE
+
+(* line 0021 *)
+ld opened_contact E20
+and opened_contact aux_temp5
+out_end coil T2021
+END_LINE
+
+(* line 0022 *)
+ld opened_contact E21
+and opened_contact aux_temp6
+out_end coil T2122
+END_LINE
+
+(* line 0023 *)
+ld opened_contact E22
+and opened_contact s_R_brac_v_desc
+out_end coil T2223
+END_LINE
+
+(* line 0024 *)
+ld opened_contact E23
+and opened_contact S_indutivo_descarga
+and opened_contact aux_temp7
+and closed_contact aux_balanca
+out_end coil T2324
+END_LINE
+
+(* line 0025 *)
+ld opened_contact E24
+and opened_contact S_r_b_desc_hor
+out_end coil T2425
+END_LINE
+
+(* line 0026 *)
+ld opened_contact E25
+and opened_contact s_r_brac_v_desc
+out_end coil T2526
+END_LINE
+
+(* line 0027 *)
+ld opened_contact E26
+and opened_contact aux_temp9
+out_end coil T2630
+END_LINE
+
+(* line 0028 *)
+ld opened_contact E23
+and opened_contact aux_temp7
+and opened_contact s_indutivo_descarga
+and opened_contact aux_balanca
+out_end coil T2327
+END_LINE
+
+(* line 0029 *)
+ld opened_contact E27
+and opened_contact s_r_brac_v_desc
+out_end coil T2728
+END_LINE
+
+(* line 0030 *)
+ld opened_contact E28
+and opened_contact aux_temp8
+out_end coil T2829
+END_LINE
+
+(* line 0031 *)
+ld opened_contact E29
+and opened_contact s_r_b_desc_hor
+out_end coil T2930
+END_LINE
+
+(* line 0032 *)
+ld opened_contact E30
+and opened_contact s_indutivo_descarga
+and opened_contact aux_temp10
+out_end coil T300
+END_LINE
+

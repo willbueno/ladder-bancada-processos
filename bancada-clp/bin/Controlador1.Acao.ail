@@ -1,0 +1,199 @@
+(* line 0001 *)
+ld opened_contact E1
+out_end set_coil esteira
+END_LINE
+
+(* line 0002 *)
+ld opened_contact E2
+out_end set_coil P_unid_transf
+END_LINE
+
+(* line 0003 *)
+ld opened_contact E3
+out_or_end reset_coil esteira
+out_end reset_coil P_unid_transf
+
+END_LINE
+
+(* line 0004 *)
+ld opened_contact E4
+or opened_contact E8
+out_end set_coil P_mani_cart_vert
+END_LINE
+
+(* line 0005 *)
+ld opened_contact E5
+out_end set_coil garra_mani_cart
+END_LINE
+
+(* line 0006 *)
+ld opened_contact E6
+or opened_contact E10
+out_end reset_coil p_mani_cart_vert
+END_LINE
+
+(* line 0007 *)
+ld opened_contact E7
+out_end set_coil p_mani_cart_hor
+END_LINE
+
+(* line 0008 *)
+ld opened_contact E9
+out_end reset_coil garra_mani_cart
+END_LINE
+
+(* line 0009 *)
+ld opened_contact E10
+out_end reset_coil p_mani_cart_hor
+END_LINE
+
+(* line 0010 *)
+ld opened_contact E11
+function_block IEC61131.TON.TON_1 ( time#0.5s temp1 )
+out_end coil aux_temp1
+END_LINE
+
+(* line 0011 *)
+ld opened_contact E11
+or opened_contact E14
+out_end set_coil mesa
+END_LINE
+
+(* line 0012 *)
+ld opened_contact E12
+or opened_contact E15
+out_end reset_coil mesa
+END_LINE
+
+(* line 0013 *)
+ld opened_contact E12
+out_or_end set_coil P_furadeira
+out_end set_coil motor_furadeira
+
+END_LINE
+
+(* line 0014 *)
+ld opened_contact E13
+function_block IEC61131.TON.TON_2 ( time#2s temp2 )
+out_or_end reset_coil p_furadeira
+out_end reset_coil MOTOR_FURADEIRA
+
+END_LINE
+
+(* line 0015 *)
+ld opened_contact E14
+function_block IEC61131.TON.TON_3 ( time#0.5s temp3 )
+and opened_contact s_indutivo
+function_block IEC61131.CTU.CTU_1 ( E15 Preset_mes acum_mesa )
+out_end coil cont_s_indutivo
+END_LINE
+
+(* line 0016 *)
+ld opened_contact E16
+or opened_contact E21
+out_end set_coil garra_descarga
+END_LINE
+
+(* line 0017 *)
+ld opened_contact E16
+function_block IEC61131.TON.TON_4 ( time#2s temp4 )
+out_end coil aux_temp4
+END_LINE
+
+(* line 0018 *)
+ld opened_contact E15
+or opened_contact E19
+or opened_contact E25
+or opened_contact E27
+out_end set_coil p_desc_vert
+END_LINE
+
+(* line 0019 *)
+ld opened_contact E18
+out_end set_coil Cil_hor_descarga
+END_LINE
+
+(* line 0020 *)
+ld opened_contact E17
+or opened_contact E22
+or opened_contact E26
+or opened_contact E28
+out_end reset_coil p_desc_vert
+END_LINE
+
+(* line 0021 *)
+ld opened_contact E20
+or opened_contact E26
+or opened_contact E28
+out_end reset_coil garra_descarga
+END_LINE
+
+(* line 0022 *)
+ld opened_contact E20
+function_block IEC61131.TON.TON_5 ( time#2s temp5 )
+out_end coil aux_temp5
+END_LINE
+
+(* line 0023 *)
+ld opened_contact E20
+and opened_contact balanca
+out_end set_coil aux_balanca
+END_LINE
+
+(* line 0024 *)
+ld opened_contact E21
+function_block IEC61131.TON.TON_6 ( time#1s temp6 )
+out_end coil aux_temp6
+END_LINE
+
+(* line 0025 *)
+ld opened_contact E23
+out_end coil b_desc_hora
+END_LINE
+
+(* line 0026 *)
+ld opened_contact E23
+function_block IEC61131.TON.TON_7 ( time#1s temp7 )
+out_end coil aux_temp7
+END_LINE
+
+(* line 0027 *)
+ld opened_contact E24
+or opened_contact E29
+out_end reset_coil cil_hor_descarga
+END_LINE
+
+(* line 0028 *)
+ld opened_contact E24
+or opened_contact E27
+out_end reset_coil aux_balanca
+END_LINE
+
+(* line 0029 *)
+ld opened_contact E26
+function_block IEC61131.TON.TON_9 ( time#1s temp9 )
+out_end coil aux_temp9
+END_LINE
+
+(* line 0030 *)
+ld opened_contact E28
+function_block IEC61131.TON.TON_8 ( time#1s temp8 )
+out_end coil aux_temp8
+END_LINE
+
+(* line 0031 *)
+ld opened_contact E30
+out_end set_coil b_desc_ahora
+END_LINE
+
+(* line 0032 *)
+ld opened_contact E0
+out_end reset_coil b_desc_ahora
+END_LINE
+
+(* line 0033 *)
+ld opened_contact E30
+function_block IEC61131.TON.TON_10 ( time#1s temp10 )
+out_end coil aux_temp10
+END_LINE
+

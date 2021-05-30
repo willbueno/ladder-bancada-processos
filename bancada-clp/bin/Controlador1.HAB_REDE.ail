@@ -1,0 +1,5 @@
+(* line 0001 *)
+out_or_end coil MASTER_B
+out_end coil MODBUS_B
+END_LINE
+

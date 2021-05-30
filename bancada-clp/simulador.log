@@ -1,0 +1,14 @@
+Create Simulator Singleton
+load UserPGM C:\Users\PC-wiLL\Desktop\MOODLE - UFSM\3 Semestre\Informática Industrial A\Grafcet\Exercicios\Exercicio_4\bin\Controlador1.bin
+Simulator: Initializing Memory
+Simulator: loading C:\Users\PC-wiLL\Desktop\MOODLE - UFSM\3 Semestre\Informática Industrial A\Grafcet\Exercicios\Exercicio_4\bin\Controlador1.bin
+Simulator: Starting Firmware
+Simulator: initializing Memory2
+Simulator: initSimulator
+Create TCPThread
+Setting Thread Priority to THREAD_PRIORITY_BELOW_NORMAL
+Communication server on port READ_PRIORITY_BELOW_NORMAL
+M\90029003 created. created.
+Communication server on port READ_PRIORITY_BELOW_NORMAL
+M\90029003 created. created.
+
